@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(pexels-instawally-165754.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#id1 {
+    border: 5px solid transparent;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    border-radius: 10px;
+}
+input {
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+    width: 100%; 
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 15px;
+    border: none;
+
+}
+
+button {
+    cursor: pointer;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 15px;
+    outline: none;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #46c84d;
+}
+
+#weatherData1, #weatherData2 {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    text-align: center;
+}
+#id2 {
+    display: flex;
+    gap: 10px;
+}
+#id3 {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+}
