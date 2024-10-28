@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://kit.fontawesome.com/372f8f780d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <form id="id1" onsubmit="return false;">
+        <h1>Weather Checker</h1> 
+        <div id="id2">
+          <input type="text" id="input1" placeholder="Enter location"/>
+          <button type="button" onclick="getWeather()"><i class="fa-solid fa-magnifying-glass"></i></button> 
+        </div>
+        <div id="weatherData1"></div>
+        <div id="id3">
+          <div id="weatherData2"></div>
+          <div id="weatherData3"></div>
+        </div>
+
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>
